@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Bree Serif';
+    padding: 20px 20px;
+}
+.btn{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    padding: 12px 23px;
+}
+.display-3{
+display: flex;
+flex-direction: column;
+text-align: center;
+padding-bottom: 25px;
+color: black;
+
+}
+
+/* Header */
+#header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+header{
+    background-color: #FBDBE3;
+    background-size: cover;
+    width: 1200px;
+    height: 70vh;
+    align-self: flex-start;
+}
+
+/* Logotipo */
+.imagen{
+margin: 0px;
+padding-left: 0px;
+position: absolute;
+width: 300px;
+height: 300px;
+left: 0px;
+top: 0px;
+background: url(imagenes/Logotipo.jpg);
+}
+/* Logotipo Beauty Salon */
+.centrado{
+position: absolute;
+width: 141px;
+height: 33px;
+left: 46px;
+top: 23px;
+font-family: 'Bree Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+color: #C9ADAD;
+}
+/* Salón de Belleza Femenina */
+.display-1{
+position: center;
+width: 379px;
+height: 43px;
+left: 247px;
+top: 75px;
+font-family: 'Bree Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+color: #C9ADAD;
+padding-top: 20px;
+}
+/* Belleza facial corporal con productos naturales */
+.display-2{
+position: cover;
+width: 418px;
+height: 27px;
+left: 247px;
+top: 123px;
+font-family: 'Bree Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+color: #C9ADAD;
+padding-top: 50px;
+
+}
+
+/* Navbar */
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-bottom: 25px;
+    color: black;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+}
+header a{
+padding: 5px 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+/*Nosotras*/
+#nosotras{
+    width: 1200px;
+    height: 80vh;
+    background-color: white;
+    background-size: cover;
+    text-align: left;
+    flex-direction: column;
+}
+.h2-nosotras{
+    padding: 12px 23px;
+}
+
+
+/* Servicios*/
+#servicios{
+padding-top: 120px;
+padding-bottom: 100px;
+text-align: left;
+background-color: #FBDBE3;
+background-size: cover;
+
+}
+.servicios-row{
+    padding-top: 20px;
+}
+#servicios h4{
+    padding-bottom: 20px;
+}
+.servicios-box{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.tratamientos{
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+/* Galeria */
+#galeria{
+    width: 1200px;
+    height: 80vh;
+}
+.galeria-box{
+    float: left;
+    width: 25%;
+    align-content: center;;
+    flex-direction: column
+}
+/* Nuestras clientes*/
+#nuestras-clientes{
+padding-top: 120px;
+padding-bottom: 100px;
+text-align: left;
+background-color: #FBDBE3;
+background-size: cover;
+padding: 12px 23px;
+}
+/*Footer*/
+footer{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 12px;
+    line-height: 30px;
+}
+.display-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+    }
+
+    /*PARTE RESPONSIVE*/
